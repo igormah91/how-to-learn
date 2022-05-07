@@ -37,7 +37,8 @@
 
 .header__title {
   margin: 0;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
@@ -47,7 +48,8 @@
 
 .header__subtitle {
   margin: 0;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -64,8 +66,9 @@
 }
 
 .header__main-illustration {
-  width: 756px;
+  width: 765px;
   height: 608px;
+  object-fit: cover;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -243,7 +246,8 @@
   font-size: 120px;
   font-weight: 700;
   text-align: center;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   color: #000;
   z-index: 3;
 }
